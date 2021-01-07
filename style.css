@@ -1,0 +1,108 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url(https://coding-pages-bucket-3411398-8171041-9753-443797-1303803761.cos-website.ap-beijing.myqcloud.com/img/main/bg.jpg) ;
+    background-size: 100% auto;
+}
+.header {
+    margin: 3vw;
+    padding: 2vw;
+    text-align: center;
+    color: white;
+    transition-duration: 500ms;
+}
+.header:hover {
+    background: rgba(0, 0, 0, .3);
+}
+.header img {
+    width: 150px;
+    height: 150px;
+}
+.focus {
+  text-align: center;
+  letter-spacing: 10px;
+  padding: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.focus img{
+  width: 40px;
+  transition-duration: 500ms;
+}
+.focus img:hover{
+  width: 50px;
+}
+
+.site{
+  margin: 3vw;
+  display:flex;
+  flex-wrap: wrap;
+}
+.box{
+  width: calc(calc(100% / 3) - 10px);
+  margin:5px;
+  height:100px;
+  text-align: center;
+  transition-duration: 500ms;
+  color: white;
+  text-decoration: none;
+  line-height: 10px;
+}
+
+.box:nth-child(1){
+  background:rgba(161, 34, 34, 0.5);
+}
+.box:nth-child(1):hover{
+  background:rgb(161, 34, 34);
+}
+
+.box:nth-child(2){
+  background:rgba(20, 39, 206, 0.5);
+}
+.box:nth-child(2):hover{
+  background:rgb(20, 39, 206);
+}
+
+.box:nth-child(3){
+  background:rgba(12, 180, 49,0.5);
+}
+.box:nth-child(3):hover{
+  background:rgb(12, 180, 49);
+}
+
+.box:nth-child(4){
+  background:rgba(202, 190, 190, 0.5);
+}
+.box:nth-child(4):hover{
+  background:rgb(202, 190, 190);
+}
+
+.box:nth-child(5){
+  background:rgba(39, 35, 34, 0.5);
+}
+.box:nth-child(5):hover{
+  background:rgb(39, 35, 34);
+}
+
+.box:nth-child(6){
+  background:rgba(5, 83, 102, 0.5);
+}
+.box:nth-child(6):hover{
+  background:rgb(5, 83, 102);
+}
+.footer {
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  transition-duration: 500ms;
+  font-size: small;
+  line-height: 20px;
+}
+.footer a{
+  color: white;
+  text-decoration: none;
+}
+.footer:hover {
+  background: rgba(0, 0, 0, .3);
+}
